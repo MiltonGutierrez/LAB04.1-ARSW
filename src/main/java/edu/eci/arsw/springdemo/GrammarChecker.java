@@ -13,7 +13,9 @@ public class GrammarChecker {
 
 	String x;
         
-	public void setSpellChecker(SpellChecker sc ){ this.sc = sc;}
+	public void setSpellChecker(SpellChecker sc ){ 
+		this.sc = sc;
+	}
         
 	public SpellChecker getSpellChecker() {
 		return sc;

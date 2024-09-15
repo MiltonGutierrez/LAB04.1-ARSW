@@ -1,8 +1,10 @@
 package edu.eci.arsw.springdemo;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component("EnglishChecker")
+@Component
+@Qualifier("EnglishChecker")
 public class EnglishSpellChecker implements SpellChecker {
 
 	@Override
